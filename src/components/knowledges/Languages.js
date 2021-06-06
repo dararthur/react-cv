@@ -21,7 +21,7 @@ state={
         let {languages,frameworks}=this.state;
 
         return (
-            <div className="languagesFrameworks">
+            <div className="languagesFrameworks" alt="frameworks langages arthur daron">
                 <ProgressBar 
                     languages={languages}
                     className="languagesDisplay"

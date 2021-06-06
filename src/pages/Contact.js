@@ -3,6 +3,12 @@ import Navigation from '../components/Navigation';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const contact = () => {
+    const Mailto = ({ email, subject, children }) => {
+        return (
+          <a href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}`}>{children}</a>
+        );
+      };
+    
     return (
         <div className="contact">
             <Navigation />
@@ -13,9 +19,10 @@ const contact = () => {
                     <ul>
                         <li>
                             <i className="fas fa-map-marker-alt"></i>
-                            <span>Lille</span>
+                            <span>Hauts de France</span>
                         </li>
-                        </ul><ul>
+                    </ul>
+                        {/*<ul>
                         <li>
                             <i className="fas fa-mobile-alt"></i>
                             <CopyToClipboard text="0601020304">
@@ -27,38 +34,26 @@ const contact = () => {
                                     06 01 02 03 04
                                 </span>
                             </CopyToClipboard>
-                        </li></ul>
-                        <ul><li>
+                        </li>
+                            </ul>*/}
+                    <ul>
+                        <li>
                             <i className="far fa-envelope"></i>
-                            <CopyToClipboard text="mon@mail.com">
-                            <span 
-                                className="clickInput" onClick={() => {
-                                alert('Email copié')
-                                }}
-                                >
-                                    mon@mail.com
-                                </span>
-                            </CopyToClipboard>
+                            <Mailto email="daron-arthur@protonmail.com" subject="A propos de votre CV">
+                                <span>daron-arthur@protonmail.com</span>
+                            </Mailto>
                         </li>
                     </ul>
                 </div>
                 <div className="socialNetwork">
                     <ul>
-                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/arthur-daron/" target="_blank" rel="noopener noreferrer" alt="Arthur Daron LinkedIn">
                         <h4>LinkedIn</h4>
                         <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/dararthur" target="_blank" rel="noopener noreferrer" alt="Arthur Daron Github">
                         <h4>Github</h4>
                         <i className="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                        <h4>Twitter</h4>
-                        <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                        <h4>CodePen</h4>
-                        <i className="fab fa-codepen"></i>
                         </a>
                     </ul>                    
                 </div>

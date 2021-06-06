@@ -7,7 +7,7 @@ class ProjectList extends Component {
         projects:portfolioData,
         radios: [
             {id: 1, value: "javascript"},
-            {id: 2, value: "css"},
+            {id: 2, value: "symfony"},
             {id: 3, value: "react"},
             {id: 4, value: "php"}
         ],
@@ -24,7 +24,7 @@ class ProjectList extends Component {
         let {projects, radios, selectedRadio}=this.state;
 
         return (
-            <div className="portfolioContent">
+            <div className="portfolioContent" alt="portfolio arthur daron">
                 <ul className="radioDisplay">
                     {
                         radios.map((radio) => {

@@ -5,9 +5,9 @@ const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="id">
-                <div className="idContent">
-                    <img src="./media/billGates.jpg" alt="profile-pic"/>
-                    <h3>My Boi</h3>
+                <div className="idContent" alt="arthur daron">
+                    <img src="./media/ad.jpg" alt="profile-pic"/>
+                    <h3>Arthur Daron</h3>
                 </div>
             </div>
             <div className="navigation">
@@ -42,20 +42,14 @@ const Navigation = () => {
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href="https://www.google.com" target="_blank" rel="noopenner noreferrer"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/arthur-daron/" target="_blank" rel="noopenner noreferrer" alt="linkedin arthur daron"><i className="fab fa-linkedin"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.google.com" target="_blank" rel="noopenner noreferrer"><i className="fab fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com" target="_blank" rel="noopenner noreferrer"><i className="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com" target="_blank" rel="noopenner noreferrer"><i className="fab fa-codepen"></i></a>
+                        <a href="https://github.com/dararthur" target="_blank" rel="noopenner noreferrer" alt="github arthur daron"><i className="fab fa-github"></i></a>
                     </li>
                 </ul>
                 <div className="signature">
-                    <p>Made by Daddy</p>
+                    <p>Made by Dararthur</p>
                 </div>
             </div>
         </div>
