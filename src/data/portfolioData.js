@@ -5,7 +5,7 @@ export const portfolioData = [
     languages: ['javascript','php','symfony'],
     languagesIcons: ['fab fa-js','fab fa-php', 'fab fa-symfony'],
     source: 'https://marieteam.dacothi.fr',
-    info: 'Réalisation d\'une application web pour une entreprise de transport maritime fictive. Projet développé avec le framework Symfony. Travail collaboratif avec en utilisant la plateforme Github.',    
+    info: 'Réalisation d\'une application web pour une entreprise de transport maritime fictive. Projet développé avec le framework Symfony. Travail collaboratif en utilisant la plateforme Github.',    
     picture: './media/marieteam.JPG'
   },
   {
