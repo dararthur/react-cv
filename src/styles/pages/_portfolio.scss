@@ -217,13 +217,16 @@
       width: 100% !important;
     }
   }
+  .infosContent {
+    max-width: fit-content;
+  }
 }
-@media (max-width: 520px) {
+@media (max-width: 520px) and (min-width: 376px) {
   .radioDisplay {
     display: none !important;
   }
   .portfolioContent {
-    grid-template-rows: 1fr !important;
+    max-width: fit-content;
 
     .project {
       grid-template-rows: 30px 40px 80px 40px !important;
@@ -233,5 +236,28 @@
         height: 100% !important;
       }
     }
+  }
+  .infosContent {
+    max-width: fit-content;
+  }
+}
+@media (max-width: 375px) {
+  .radioDisplay {
+    display: none !important;
+  }
+  .portfolioContent {
+    max-width: fit-content;
+    .project {
+      max-height: flex;
+      grid-template-rows: 30px 40px 80px 40px !important;
+      width: 98% !important;
+
+      img {
+        height: 100% !important;
+      }
+    }
+  }
+  .infosContent {
+    max-width: fit-content;
   }
 }
