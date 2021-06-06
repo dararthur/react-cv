@@ -20,8 +20,6 @@ const contact = () => {
                             <i className="fas fa-map-marker-alt"></i>
                             <span>Hauts de France</span>
                         </li>
-                    </ul>                        
-                    <ul>
                         <li>
                             <i className="far fa-envelope"></i>
                             <Mailto email="daron-arthur@protonmail.com" subject="A propos de votre CV">

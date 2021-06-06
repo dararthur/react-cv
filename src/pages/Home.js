@@ -13,7 +13,7 @@ const Home = () => {
                         <a href="./media/CV.pdf" target="_blank">Télécharger mon CV</a>
     </div>*/}
                     <div className="presentation">
-                        <a href="/portfolio" alt="arthur daron portfolio">Découvrez mes réalisations</a>
+                        <a href="https://marieteam.dacothi.fr" target="_blank" alt="arthur daron marieteam">Découvrez une de mes réalisations</a>
                     </div>
                 </div>
             </div>
