@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const contact = () => {
     const Mailto = ({ email, subject, children }) => {
@@ -21,21 +20,7 @@ const contact = () => {
                             <i className="fas fa-map-marker-alt"></i>
                             <span>Hauts de France</span>
                         </li>
-                    </ul>
-                        {/*<ul>
-                        <li>
-                            <i className="fas fa-mobile-alt"></i>
-                            <CopyToClipboard text="0601020304">
-                            <span 
-                                className="clickInput" onClick={() => {
-                                alert('Téléphone copié')
-                                }}
-                                >
-                                    06 01 02 03 04
-                                </span>
-                            </CopyToClipboard>
-                        </li>
-                            </ul>*/}
+                    </ul>                        
                     <ul>
                         <li>
                             <i className="far fa-envelope"></i>
