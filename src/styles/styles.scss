@@ -5,3 +5,12 @@
 @import "./pages/knowledges";
 @import "./pages/notFound";
 @import "./pages/portfolio";
+
+html {
+  background: rgb(255, 251, 227);
+  background: radial-gradient(
+    circle,
+    rgba(255, 251, 227, 1) 0%,
+    rgba(208, 229, 255, 1) 100%
+  );
+}
