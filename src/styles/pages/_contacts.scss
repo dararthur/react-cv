@@ -1,5 +1,5 @@
 .contactContent {
-  background: $color-3;
+  background: $color-1;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
@@ -10,12 +10,14 @@
     "1"
     "2"
     "3";
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(1, 1, 1, 1);
+  box-shadow: 1px 1px 10px 1px rgba(1, 1, 1, 1);
 
   .header {
     grid-area: 1;
     width: 100%;
     position: relative;
-    background: $color-1;
+    background: linear-gradient(to top, $color-7 10%, $color-6 90%);;
     height: 340px;
 
     &:before {
@@ -83,6 +85,7 @@
       }
       span {
         font-size: 1.4rem;
+        color: $color-7;
         position: absolute;
         transform: translateX(52px);
         background: transparent;
@@ -127,6 +130,9 @@
         i {
           color: $color-2;
           margin-top: 0.3rem;
+        }
+        h4 {
+          color: $color-7;
         }
       }
       //Animation
