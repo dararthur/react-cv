@@ -11,14 +11,14 @@ const OtherSkills = () => {
                     <li><i className="fas fa-check-square"></i>SEO</li>
                     <li><i className="fas fa-check-square"></i>Méthodes agiles</li>
                 </ul>
-                {/*
+                {
                 <ul>
-                    <li><i className="fas fa-check-square"></i>Une compétence</li>
-                    <li><i className="fas fa-check-square"></i>Une compétence</li>
-                    <li><i className="fas fa-check-square"></i>Une compétence</li>
-                    <li><i className="fas fa-check-square"></i>Une compétence</li>
+                    <li><i className="fas fa-check-square"></i>Suivi de projet - kanban</li>
+                    <li><i className="fas fa-check-square"></i>Esprit de synthèse</li>
+                    <li><i className="fas fa-check-square"></i>Veille juridique et technologique</li>
+                    <li><i className="fas fa-check-square"></i>Prévention et premiers secours</li>
                 </ul>
-                */}
+                }
             </div>
         </div>
     );
